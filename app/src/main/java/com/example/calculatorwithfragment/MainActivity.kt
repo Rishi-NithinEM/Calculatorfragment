@@ -1,7 +1,9 @@
 package com.example.calculatorwithfragment
 
+import android.app.Fragment
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,4 +16,5 @@ class MainActivity : AppCompatActivity() {
             transaction.commit()
         }
     }
+
 }
