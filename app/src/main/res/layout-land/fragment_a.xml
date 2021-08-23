@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/textViewresult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:textSize="16sp"
+            />
+
+        <Button
+            android:id="@+id/buttonSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sub"
+            android:textSize="16sp"
+            android:layout_below="@id/buttonAdd"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="100dp"
+            />
+
+        <Button
+            android:id="@+id/buttonMultiply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multiply"
+            android:textSize="16sp"
+
+            android:layout_toRightOf="@id/buttonAdd"
+            android:layout_marginLeft="200dp"
+             />
+
+        <Button
+            android:id="@+id/buttonDivide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/divide"
+            android:textSize="16sp"
+            android:layout_below="@id/buttonMultiply"
+            android:layout_toRightOf="@id/buttonSub"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="100dp"
+             />
+
+        <Button
+            android:id="@+id/buttonReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset"
+            android:visibility="invisible"
+            android:layout_below="@id/textViewresult"
+            android:layout_marginTop="50dp"
+             />
+
+    </RelativeLayout>
+
+</FrameLayout>

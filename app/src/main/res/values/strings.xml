@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculator with fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_number_1">Enter number 1</string>
+    <string name="enter_number_2">Enter number 2</string>
+    <string name="button">Button</string>
+    <string name="divide">DIVIDE</string>
+    <string name="reset">RESET</string>
+    <string name="multiply">MULTIPLY</string>
+    <string name="sub">SUB</string>
+    <string name="add">ADDITION</string>
+</resources>
